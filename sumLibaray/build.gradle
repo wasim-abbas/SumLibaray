@@ -48,7 +48,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = "com.example.sumlibaray"
-                artifactId = "sumlibaray"
+                artifactId = "SumLibaray"
                 version = '0.1.0'
             }
         }
