@@ -1,10 +1,28 @@
 package com.example.sumlibaray
 
-object Add {
+object Add:MyMath {
 
-    fun sum(a:Int,b:Int):Int
+    override fun sum(a:Int, b:Int):Int
     {
         val c = a+b
         return c
+    }
+
+    override fun Sub(a: Int, b: Int): Int {
+
+        val sub = a-b
+        return sub
+    }
+
+    override fun multilpy(a: Int, b: Int): Int {
+
+        val mult= a*b
+        return  mult
+    }
+
+    override fun divide(a: Int, b: Int): Int {
+
+        val div = a/b
+        return div
     }
 }

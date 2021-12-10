@@ -1,6 +1,6 @@
 package com.example.sumlibaray
 
-interface Math {
+interface MyMath {
 
     fun sum(a:Int, b:Int):Int
     fun Sub(a:Int,b:Int):Int
