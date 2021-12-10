@@ -3,15 +3,11 @@ package com.example.sumlibaray
 object Add:MyMath {
 
     override fun sum(a:Int, b:Int):Int
-    {
-        val c = a+b
-        return c
+    { return  a+b
     }
 
     override fun Sub(a: Int, b: Int): Int {
-
-        val sub = a-b
-        return sub
+        return a-b
     }
 
     override fun multilpy(a: Int, b: Int): Int {
