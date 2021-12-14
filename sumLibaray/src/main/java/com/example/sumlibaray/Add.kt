@@ -25,10 +25,9 @@ object Add:MyMath {
         return div
     }
 
-    fun activirt(contxt:Context):View
+    fun activity(contxt:Context):View
     {
         val a = View.inflate(contxt,R.layout.activity_sum,null)
-
         return a
     }
 }
